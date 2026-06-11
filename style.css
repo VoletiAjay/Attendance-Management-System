@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#f1f5f9;
+}
+
+/* LOGIN PAGE */
+
+.login-body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right,#1e3c72,#2a5298);
+}
+
+.login-container{
+    width:900px;
+    height:500px;
+    background:white;
+    display:flex;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+.left-side{
+    flex:1;
+    background:#0f172a;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:40px;
+}
+
+.left-side h1{
+    font-size:45px;
+    margin-bottom:20px;
+    text-align:left;
+    margin-bottom:30px;
+}
+
+.left-side p{
+    font-size:18px;
+    line-height:30px;
+    display:flex;
+    text-align:center;
+    font-size:20px;
+
+}
+
+.right-side{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:50px;
+}
+
+.right-side h2{
+    margin-bottom:30px;
+    font-size:35px;
+    color:#1e293b;
+}
+
+.right-side input{
+    padding:14px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.right-side button{
+    padding:14px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.right-side button:hover{
+    background:#1d4ed8;
+}
+
+/* DASHBOARD */
+
+.dashboard-container,
+.students-container{
+    width:90%;
+    margin:auto;
+    padding:40px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.summary-cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+}
+
+.card{
+    flex:1;
+    min-width:220px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.present-card{
+    background:#dcfce7;
+}
+
+.absent-card{
+    background:#fee2e2;
+}
+
+.card p{
+    font-size:35px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.dashboard-lists{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.list-box{
+    flex:1;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.list-box ul{
+    list-style:none;
+    margin-top:20px;
+}
+
+.list-box li{
+    padding:12px;
+    margin-bottom:10px;
+    background:#f8fafc;
+    border-radius:8px;
+}
+
+/* STUDENT PAGE */
+
+.student-card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.student-card h2{
+    margin-bottom:10px;
+}
+
+.student-card p{
+    margin:5px 0;
+}
+
+.status{
+    font-weight:bold;
+}
+
+.present{
+    color:green;
+}
+
+.absent{
+    color:red;
+}
+
+select{
+    margin-top:10px;
+    padding:10px;
+    border-radius:8px;
+}
+
+.buttons{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.buttons button{
+    padding:12px 25px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.buttons button:hover{
+    background:#1e40af;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <h1>Attendance Dashboard</h1>
+
+        <div class="summary-cards">
+
+            <div class="card">
+                <h2>Total Students</h2>
+                <p id="totalStudents">0</p>
+            </div>
+
+            <div class="card present-card">
+                <h2>Present</h2>
+                <p id="presentCount">0</p>
+            </div>
+
+            <div class="card absent-card">
+                <h2>Absent</h2>
+                <p id="absentCount">0</p>
+            </div>
+
+        </div>
+
+        <div class="dashboard-lists">
+
+            <!-- PRESENT STUDENTS -->
+            <div class="list-box">
+                <h2>Present Students</h2>
+
+                <ul id="presentList"></ul>
+            </div>
+
+            <!-- ABSENT STUDENTS -->
+            <div class="list-box">
+                <h2>Absent Students</h2>
+
+                <ul id="absentList"></ul>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+
+            <button onclick="goBack()">
+                Previous
+            </button>
+
+            <button onclick="goStudentsPage()">
+                Manage Students
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
