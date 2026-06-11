@@ -1,7 +1,6 @@
 # Attendance Management System
 
-A modern Attendance Management System built using React and Vite. The project helps users manage and track attendance records efficiently through a simple and user-friendly interface.
-
+A simple Attendance Management System built using HTML, CSS, JavaScript, and JSON. The project helps users manage and track attendance records through a clean and user-friendly interface.
 ## Features
 - Mark student attendance
 - View attendance records
